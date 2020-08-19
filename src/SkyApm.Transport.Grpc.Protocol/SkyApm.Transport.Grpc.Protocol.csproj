@@ -21,7 +21,7 @@
     </ItemGroup>
     
     <ItemGroup>
-        <Protobuf Include="protocol/**/*.proto" ProtoRoot="protocol" OutputDir="%(RelativePath)generated" CompileOutputs="false" />
+        <Protobuf Include="protocol/**/*.proto" ProtoRoot="protocol" OutputDir="%(RelativePath)generated" CompileOutputs="true" />
     </ItemGroup>
 
     <PropertyGroup>
